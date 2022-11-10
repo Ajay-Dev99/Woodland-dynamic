@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;     
+    }
+    
+
+
+.navbar-logo {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.col-box-four
+{
+    display: flex;
+    padding: 30px 0 !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-right: 1px solid #444;
+    background-color: black;
+   
+}
+.col-box-four:hover
+{
+    background-color: #2c6431;
+}
+.col-box-four p{
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+}
+.col-box-four span{
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+}
+.t-shirt-bg
+{
+    background-image: url(images/tshirt-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 430px;
+}
+.mt-50
+{
+    margin-top: 50px !important;
+}
+.t-shirt-bg .btn
+{
+    padding: 8px 32px;
+    font-size: 24px;
+    border-radius: 0%;
+}
+.btn-success
+{
+    background: #2c6431;
+    color: #fff;
+    border-color:#2c6431 ;
+    border-radius: 0;
+}
+.trekking-bg
+{
+    background-image: url(images/trekking.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 430px;
+}
+.bags-bg
+{
+    background-image: url(images/bags.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 430px;
+}
+.trekking-bg .btn,.bags-bg .btn
+{
+    padding: 8px 32px;
+    font-size: 24px;
+    border-radius: 0%;
+}
+.footer-section
+{
+    background-color:black ;
+}
+.footer-menu li
+{
+    list-style: none;
+    padding: 3px 0;
+
+}
+.footer-menu li a
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #a6a6a6;
+}
+.footer-border-top {
+   
+    border-top: 1px solid #ccc;
+}
